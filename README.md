@@ -29,9 +29,9 @@ mvn clean install
 java -jar target/rabbitmq-producer-*.jar
 ```
 4. Send a new employee details to a company queue.
-```
+
 http://localhost:8080/demo/producer?name=John&id=11
-```
+
 The JSON representation of an employee is the following.
 ```
 { 
@@ -40,6 +40,6 @@ The JSON representation of an employee is the following.
 }
 ```
 5. Check the queue status on RabbitMQ.
-```
+
 http://localhost:15672/#/queues/%2F/company.queue
-```
+
