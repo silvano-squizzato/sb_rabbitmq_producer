@@ -6,7 +6,7 @@ This code provides a example on how to submit a message to a RabbitMQ queue.
 
 ## Prerequisites
 A [RabbitMQ Docker](https://hub.docker.com/_/rabbitmq) image running locally.
-See also [Docker network settings](https://docs.docker.com/engine/reference/run/#network-settings)
+See also [Docker network settings](https://docs.docker.com/engine/reference/run/#network-settings).
 
 The following command will start a RabbitMQ container listening on the default port of 5672.
 
@@ -18,7 +18,7 @@ sudo docker run -d --network="host" rabbitmq:3-management
 ## Demo
 Producer Java application sending a message with a new employee name and id to a queue.
 
-1. Download the code for [sb_rabbitmq_producer](https://github.com/silvano-squizzato/sb_rabbitmq_producer)
+1. Download the code for [sb_rabbitmq_producer](https://github.com/silvano-squizzato/sb_rabbitmq_producer).
 
 2. Build the project.
 ```
