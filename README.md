@@ -1,10 +1,10 @@
 # SpringBoot RabbitMQ Producer
-##Overview
+## Overview
 [RabbitMQ](https://www.rabbitmq.com/) is an open source message broker software written in [Erlang](https://www.erlang.org/) that implements the Advanced Message Queuing Protocol ([AMQP](https://www.amqp.org/)).
 
 This code provides a example on how to submit a message to a RabbitMQ queue.
 
-##Prerequisites
+## Prerequisites
 A [RabbitMQ Docker](https://hub.docker.com/_/rabbitmq) image running locally.
 See also [Docker network settings](https://docs.docker.com/engine/reference/run/#network-settings)
 
@@ -15,7 +15,7 @@ sudo docker run -d --network="host" rabbitmq:3-management
 ```
 
 
-##Demo
+## Demo
 Producer Java application sending a message with a new employee name and id to a queue.
 
 1. Download the code for [sb_rabbitmq_producer](https://github.com/silvano-squizzato/sb_rabbitmq_producer)
